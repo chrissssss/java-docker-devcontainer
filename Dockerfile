@@ -1,5 +1,5 @@
 ############################################################
-# Schritt 1: Build-Phase (mit Maven und OpenJDK)
+# Step 1: Build-Phase (with Maven und OpenJDK)
 ############################################################
 
 FROM ubuntu:20.04 AS build
@@ -28,10 +28,10 @@ RUN mvn dependency:go-offline
 COPY src ./src
 
 # Build the Spring Boot application
-RUN mvn clean install -DskipTests
+RUN mvn clean install
 
 ############################################################
-# Schritt 2: Laufzeit-Phase (mit OpenJDK)
+# Step 2: Runtime-Phase (with OpenJDK)
 ############################################################
 
 FROM ubuntu:20.04 AS runtime

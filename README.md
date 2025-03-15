@@ -20,3 +20,7 @@ Clone the repo and run as devcontainer.
     ```bash
     docker build -t spring-boot-application .
     ```
+4. Run the container
+    ```bash
+    docker run -p 8080:8080 spring-boot-application
+    ```
