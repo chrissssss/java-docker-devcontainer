@@ -9,6 +9,10 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     npm
 
+# Install additional dependencies
+RUN apt-get update && apt-get install -y \
+    curl
+
 # Set the working directory
 WORKDIR /usr/src/app
 
