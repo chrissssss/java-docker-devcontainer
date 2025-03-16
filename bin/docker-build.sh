@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t ghcr.io/${{ github.repository }}/spring-boot-application:latest .
+docker build -t ghcr.io/${REPOSITORY}/spring-boot-application:latest .
