@@ -27,7 +27,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Build with Maven
-        run: ./bin/build.sh
+        run: MAVEN_ARGS=-B ./bin/build.sh
 
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v2
