@@ -8,19 +8,23 @@ Clone the repo and run as devcontainer.
 
 ## Build and run
 
-1. Test and build the project with Maven:
+1. Build (and test) the project with Maven:
     ```bash
-    mvn clean install
+    bin/build.sh
     ```
-2. Start the Spring Boot application:
+2. Only run the tests:
     ```bash
-    mvn spring-boot:run
+    bin/test.sh
     ```
-3. Build the container
+3. Start the Spring Boot application:
     ```bash
-    docker build -t spring-boot-application .
+    bin/run.sh
     ```
-4. Run the container
+4. Build the container:
     ```bash
-    docker run -p 8080:8080 spring-boot-application
+    bin/docker-build.sh
+    ```
+5. Run the container:
+    ```bash
+    bin/docker-run.sh
     ```
