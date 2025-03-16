@@ -18,6 +18,10 @@
 		}
 	},
 
+	"remoteEnv": { "PATH": "${containerEnv:PATH}:/workspaces/dash/bin" }
+
+
+
 	//"forwardPorts": [8080]
 
 }
