@@ -8,7 +8,9 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y \
     curl \
     maven \
-    openjdk-21-jdk-headless
+    openjdk-21-jdk-headless \
+    git \
+    && apt-get clean
 
 # Set the working directory
 WORKDIR /usr/src/app

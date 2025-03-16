@@ -42,3 +42,4 @@ You can view the workflow file [here](.github/workflows/build-and-deploy.yml).
 - [ ] Check build steps in yml: seems like mvn is been run twice
 - [ ] Check for duplications in build steps definition 
 - [ ] Slim down build yml by relying more on definitions in Dockerfile
+- [ ] Why does the trigger not run?
