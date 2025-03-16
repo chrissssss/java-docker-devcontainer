@@ -13,15 +13,12 @@
 		"vscode": {
 			"extensions": [
 				"vscjava.vscode-java-pack",
-				"hanskre.markdown-execute"
+				"hanskre.markdown-execute",
+				"vmware.vscode-boot-dev-pack"
 			]
 		}
 	},
 
 	"remoteEnv": { "PATH": "${containerEnv:PATH}:/workspaces/dash/bin" }
-
-
-
-	//"forwardPorts": [8080]
 
 }
