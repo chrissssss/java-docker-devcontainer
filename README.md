@@ -1,6 +1,6 @@
 # Spring Boot Hello World REST service
 
-## Projektbeschreibung
+## Project description
 Hello World REST Service Template setup as devcontainer using Spring Boot 3.4.3
 
 ## Development
