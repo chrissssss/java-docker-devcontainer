@@ -36,3 +36,9 @@ This project uses GitHub Actions to automate the build and deployment process. T
 The workflow is triggered on pushes and pull requests to the `main` branch.
 
 You can view the workflow file [here](.github/workflows/build-and-deploy.yml).
+
+## Issues
+- [ ] Maven build should be run with -B (MVN_ARGS?) to declutter logs
+- [ ] Check build steps in yml: seems like mvn is been run twice
+- [ ] Check for duplications in build steps definition 
+- [ ] Slim down build yml by relying more on definitions in Dockerfile
