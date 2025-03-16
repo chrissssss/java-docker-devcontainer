@@ -17,6 +17,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Set execute permissions for build script
+        run: chmod +x ./bin/*.sh
+
       - name: Set up JDK 21
         uses: actions/setup-java@v3
         with:
