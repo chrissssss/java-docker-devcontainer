@@ -40,3 +40,4 @@ You can view the workflow file [here](.github/workflows/build-and-deploy.yml).
 ## Issues
 - [ ] Maven build should be run with -B (MVN_ARGS?) to declutter logs
 - [ ] Why does the trigger not run?
+- [ ] Compare imagesize and switch to https://github.com/MrGraversen/minimal-jre-21-spring-boot-3-demo/blob/develop/MinimalJRE21.Dockerfile minimal build using temurine
