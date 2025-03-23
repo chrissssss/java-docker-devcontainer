@@ -48,7 +48,7 @@ RUN jlink \
 # Step 2: Runtime-Phase (with Distroless)
 ############################################################
 
-FROM gcr.io/distroless/java17-debian11 AS runtime
+FROM gcr.io/distroless/java21-debian12 AS runtime
 
 # Copy the custom JRE from the build stage
 COPY --from=build /custom-jre /custom-jre
